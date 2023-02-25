@@ -40,7 +40,6 @@
 		DDC402C029A7956F00007F44 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC402BF29A7956F00007F44 /* Storyboard.swift */; };
 		DDC6F59429A78DD600F75539 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6F59329A78DD600F75539 /* CustomTabBarViewController.swift */; };
 		DDCE043529AA4D170093F408 /* ProductSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCE043329AA4D170093F408 /* ProductSlide.xib */; };
-		DDCE043729AA52CA0093F408 /* ProductSlideViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE043629AA52CA0093F408 /* ProductSlideViewCell.swift */; };
 		DDF6F44729A7AD3D005E3985 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F44629A7AD3D005E3985 /* extension.swift */; };
 		DDF6F44929A7B27B005E3985 /* HomeVCBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F44829A7B27B005E3985 /* HomeVCBottom.swift */; };
 		DDF6F44F29A7E2A4005E3985 /* CustomRectanglePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F44E29A7E2A4005E3985 /* CustomRectanglePageControl.swift */; };
@@ -108,7 +107,6 @@
 		DDC402BF29A7956F00007F44 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		DDC6F59329A78DD600F75539 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		DDCE043329AA4D170093F408 /* ProductSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductSlide.xib; sourceTree = "<group>"; };
-		DDCE043629AA52CA0093F408 /* ProductSlideViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSlideViewCell.swift; sourceTree = "<group>"; };
 		DDF6F44629A7AD3D005E3985 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		DDF6F44829A7B27B005E3985 /* HomeVCBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCBottom.swift; sourceTree = "<group>"; };
 		DDF6F44E29A7E2A4005E3985 /* CustomRectanglePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRectanglePageControl.swift; sourceTree = "<group>"; };
@@ -268,7 +266,6 @@
 				DDCE043329AA4D170093F408 /* ProductSlide.xib */,
 				DD627D7A29A4F22200BF858F /* ProductSlide.swift */,
 				DDF6F44829A7B27B005E3985 /* HomeVCBottom.swift */,
-				DDCE043629AA52CA0093F408 /* ProductSlideViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -549,7 +546,6 @@
 				DDF6F44929A7B27B005E3985 /* HomeVCBottom.swift in Sources */,
 				DDF6F44729A7AD3D005E3985 /* extension.swift in Sources */,
 				DD231AE529A4CCCA00C8D063 /* SlideView.swift in Sources */,
-				DDCE043729AA52CA0093F408 /* ProductSlideViewCell.swift in Sources */,
 				DDC6F59429A78DD600F75539 /* CustomTabBarViewController.swift in Sources */,
 				DDC402C029A7956F00007F44 /* Storyboard.swift in Sources */,
 				DDF6F45529AA36EA005E3985 /* APIService.swift in Sources */,

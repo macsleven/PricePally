@@ -36,9 +36,6 @@ class HomeVCBottom: TabmanViewController {
            bar.fadesContentEdges = true
            bar.spacing = 16.0
            
-          // bar.indicator.transitionStyle = .progressive
-          // bar.scrollMode = .swipe
-           
            bar.backgroundColor = .white
            
            // Set tint colors for the bar buttons and indicator.
@@ -73,9 +70,6 @@ extension HomeVCBottom: PageboyViewControllerDataSource, TMBarDataSource {
     }
 
     func barItem(for bar: TMBar, at index: Int) -> TMBarItemable {
-//        if let title = viewControllers[index].title {
-//            return TMBarItem(title: title)
-//        }
         
         switch index {
         case 0:

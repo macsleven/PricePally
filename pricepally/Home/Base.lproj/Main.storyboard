@@ -231,6 +231,7 @@
                         <outlet property="dashBoardPgCtrl" destination="LS3-EJ-Ier" id="2rg-ta-4CJ"/>
                         <outlet property="dashBoardScrollView" destination="juJ-jn-zj7" id="nE2-ne-W6n"/>
                         <outlet property="horizontallyScrollableStackView" destination="nXU-rZ-Dlk" id="Ilt-mO-wUM"/>
+                        <outlet property="parentScrollView" destination="uqr-pD-WeK" id="Msd-MV-cCm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WV4-U7-dFo" sceneMemberID="firstResponder"/>

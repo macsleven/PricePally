@@ -38,7 +38,6 @@ class APIService: APIServiceProtocol {
         AF.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseDecodable(of: ProductResponse.self) { response in
             switch response.result {
             case .success(let value):
-                print("Response: \(value)")
                 completion(value, nil)
             case .failure(let error):
                 completion(nil, error)
