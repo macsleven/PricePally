@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.6.2)
+  - ImageLoader (0.15.0)
+  - Pageboy (4.0.2)
+  - Tabman (3.0.1):
+    - Pageboy (~> 4.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImageLoader
+  - Tabman (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageLoader
+    - Pageboy
+    - Tabman
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  ImageLoader: e0635d52020d64dc7687e3a3b14dc53212ac0442
+  Pageboy: 34ff11e8d1041b81769d5bcde9b19a0cb7218bd9
+  Tabman: a5880789298f81d3f2cdd6510b54ae637cfd8e09
+
+PODFILE CHECKSUM: 3c2c30361bc54b7b659fea8fa34b301bcf915f9e
+
+COCOAPODS: 1.11.3

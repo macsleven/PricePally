@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5B453192728CF793138108 /* Pods_pricepallyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA575FF9040EC58E1A91ACA7 /* Pods_pricepallyTests.framework */; };
+		84072258509C84589F6937D0 /* Pods_pricepally_pricepallyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E09DDADA3747C8B137087E /* Pods_pricepally_pricepallyUITests.framework */; };
+		B7E03927FB72498410906F22 /* Pods_pricepally.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F07106AD7EA08AC348961 /* Pods_pricepally.framework */; };
 		DD231AB329A4BF4C00C8D063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AB229A4BF4C00C8D063 /* AppDelegate.swift */; };
 		DD231AB529A4BF4C00C8D063 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AB429A4BF4C00C8D063 /* SceneDelegate.swift */; };
-		DD231AB729A4BF4C00C8D063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AB629A4BF4C00C8D063 /* ViewController.swift */; };
+		DD231AB729A4BF4C00C8D063 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AB629A4BF4C00C8D063 /* HomeVC.swift */; };
 		DD231ABA29A4BF4C00C8D063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD231AB829A4BF4C00C8D063 /* Main.storyboard */; };
 		DD231ABC29A4BF4E00C8D063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD231ABB29A4BF4E00C8D063 /* Assets.xcassets */; };
 		DD231ABF29A4BF4E00C8D063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD231ABD29A4BF4E00C8D063 /* LaunchScreen.storyboard */; };
 		DD231ACA29A4BF4F00C8D063 /* pricepallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AC929A4BF4F00C8D063 /* pricepallyTests.swift */; };
 		DD231AD429A4BF4F00C8D063 /* pricepallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AD329A4BF4F00C8D063 /* pricepallyUITests.swift */; };
 		DD231AD629A4BF4F00C8D063 /* pricepallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AD529A4BF4F00C8D063 /* pricepallyUITestsLaunchTests.swift */; };
+		DD231AE329A4CB1A00C8D063 /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD231AE229A4CB1A00C8D063 /* SlideView.xib */; };
+		DD231AE529A4CCCA00C8D063 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD231AE429A4CCC900C8D063 /* SlideView.swift */; };
+		DD627D7B29A4F22200BF858F /* ProductSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD627D7A29A4F22200BF858F /* ProductSlide.swift */; };
+		DD94AE2F29A5056A00B4915C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2229A5056A00B4915C /* Roboto-Medium.ttf */; };
+		DD94AE3029A5056A00B4915C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2329A5056A00B4915C /* Roboto-Light.ttf */; };
+		DD94AE3129A5056A00B4915C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2429A5056A00B4915C /* Roboto-Regular.ttf */; };
+		DD94AE3229A5056A00B4915C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2529A5056A00B4915C /* Roboto-MediumItalic.ttf */; };
+		DD94AE3329A5056A00B4915C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2629A5056A00B4915C /* Roboto-ThinItalic.ttf */; };
+		DD94AE3429A5056A00B4915C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2729A5056A00B4915C /* Roboto-BoldItalic.ttf */; };
+		DD94AE3529A5056A00B4915C /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2829A5056A00B4915C /* Roboto-LightItalic.ttf */; };
+		DD94AE3629A5056A00B4915C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2929A5056A00B4915C /* Roboto-Italic.ttf */; };
+		DD94AE3729A5056A00B4915C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2A29A5056A00B4915C /* LICENSE.txt */; };
+		DD94AE3829A5056A00B4915C /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2B29A5056A00B4915C /* Roboto-BlackItalic.ttf */; };
+		DD94AE3929A5056A00B4915C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2C29A5056A00B4915C /* Roboto-Bold.ttf */; };
+		DD94AE3A29A5056A00B4915C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2D29A5056A00B4915C /* Roboto-Thin.ttf */; };
+		DD94AE3B29A5056A00B4915C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD94AE2E29A5056A00B4915C /* Roboto-Black.ttf */; };
+		DDC1BE0929A531E500FFC648 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1BE0829A531E500FFC648 /* CategoryViewController.swift */; };
+		DDC1BE0F29A53BD600FFC648 /* CategoryColtnsVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1BE0E29A53BD600FFC648 /* CategoryColtnsVCell.swift */; };
+		DDC402C029A7956F00007F44 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC402BF29A7956F00007F44 /* Storyboard.swift */; };
+		DDC6F59429A78DD600F75539 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6F59329A78DD600F75539 /* CustomTabBarViewController.swift */; };
+		DDCE043529AA4D170093F408 /* ProductSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCE043329AA4D170093F408 /* ProductSlide.xib */; };
+		DDCE043729AA52CA0093F408 /* ProductSlideViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE043629AA52CA0093F408 /* ProductSlideViewCell.swift */; };
+		DDF6F44729A7AD3D005E3985 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F44629A7AD3D005E3985 /* extension.swift */; };
+		DDF6F44929A7B27B005E3985 /* HomeVCBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F44829A7B27B005E3985 /* HomeVCBottom.swift */; };
+		DDF6F44F29A7E2A4005E3985 /* CustomRectanglePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F44E29A7E2A4005E3985 /* CustomRectanglePageControl.swift */; };
+		DDF6F45229AA350D005E3985 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F45129AA350D005E3985 /* Product.swift */; };
+		DDF6F45529AA36EA005E3985 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6F45429AA36EA005E3985 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +66,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF8BEEB75934F24D68C4B6A /* Pods-pricepallyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pricepallyTests.debug.xcconfig"; path = "Target Support Files/Pods-pricepallyTests/Pods-pricepallyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17D7F618E58A402F01E3A882 /* Pods-pricepally.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pricepally.debug.xcconfig"; path = "Target Support Files/Pods-pricepally/Pods-pricepally.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC56E1F5FEFCEACB8CBEECE /* Pods-pricepally-pricepallyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pricepally-pricepallyUITests.debug.xcconfig"; path = "Target Support Files/Pods-pricepally-pricepallyUITests/Pods-pricepally-pricepallyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D478506C8D97CCB64BD2ABF /* Pods-pricepallyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pricepallyTests.release.xcconfig"; path = "Target Support Files/Pods-pricepallyTests/Pods-pricepallyTests.release.xcconfig"; sourceTree = "<group>"; };
+		603AAD68BD608BD04EADA1CF /* Pods-pricepally-pricepallyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pricepally-pricepallyUITests.release.xcconfig"; path = "Target Support Files/Pods-pricepally-pricepallyUITests/Pods-pricepally-pricepallyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A73814BD7CB68C2E59E1C036 /* Pods-pricepally.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pricepally.release.xcconfig"; path = "Target Support Files/Pods-pricepally/Pods-pricepally.release.xcconfig"; sourceTree = "<group>"; };
+		AA575FF9040EC58E1A91ACA7 /* Pods_pricepallyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pricepallyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2F07106AD7EA08AC348961 /* Pods_pricepally.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pricepally.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD231AAF29A4BF4C00C8D063 /* pricepally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pricepally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD231AB229A4BF4C00C8D063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD231AB429A4BF4C00C8D063 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD231AB629A4BF4C00C8D063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD231AB629A4BF4C00C8D063 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DD231AB929A4BF4C00C8D063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD231ABB29A4BF4E00C8D063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD231ABE29A4BF4E00C8D063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +87,34 @@
 		DD231ACF29A4BF4F00C8D063 /* pricepallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pricepallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD231AD329A4BF4F00C8D063 /* pricepallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pricepallyUITests.swift; sourceTree = "<group>"; };
 		DD231AD529A4BF4F00C8D063 /* pricepallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pricepallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD231AE229A4CB1A00C8D063 /* SlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
+		DD231AE429A4CCC900C8D063 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		DD627D7A29A4F22200BF858F /* ProductSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSlide.swift; sourceTree = "<group>"; };
+		DD94AE2229A5056A00B4915C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		DD94AE2329A5056A00B4915C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DD94AE2429A5056A00B4915C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DD94AE2529A5056A00B4915C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DD94AE2629A5056A00B4915C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DD94AE2729A5056A00B4915C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DD94AE2829A5056A00B4915C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DD94AE2929A5056A00B4915C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		DD94AE2A29A5056A00B4915C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DD94AE2B29A5056A00B4915C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		DD94AE2C29A5056A00B4915C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DD94AE2D29A5056A00B4915C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		DD94AE2E29A5056A00B4915C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		DDC1BE0829A531E500FFC648 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		DDC1BE0E29A53BD600FFC648 /* CategoryColtnsVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryColtnsVCell.swift; sourceTree = "<group>"; };
+		DDC402BF29A7956F00007F44 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		DDC6F59329A78DD600F75539 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		DDCE043329AA4D170093F408 /* ProductSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductSlide.xib; sourceTree = "<group>"; };
+		DDCE043629AA52CA0093F408 /* ProductSlideViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSlideViewCell.swift; sourceTree = "<group>"; };
+		DDF6F44629A7AD3D005E3985 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		DDF6F44829A7B27B005E3985 /* HomeVCBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCBottom.swift; sourceTree = "<group>"; };
+		DDF6F44E29A7E2A4005E3985 /* CustomRectanglePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRectanglePageControl.swift; sourceTree = "<group>"; };
+		DDF6F45129AA350D005E3985 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DDF6F45429AA36EA005E3985 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F9E09DDADA3747C8B137087E /* Pods_pricepally_pricepallyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pricepally_pricepallyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E03927FB72498410906F22 /* Pods_pricepally.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5B453192728CF793138108 /* Pods_pricepallyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84072258509C84589F6937D0 /* Pods_pricepally_pricepallyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31210B7AF712205973ACD2B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D7F618E58A402F01E3A882 /* Pods-pricepally.debug.xcconfig */,
+				A73814BD7CB68C2E59E1C036 /* Pods-pricepally.release.xcconfig */,
+				2CC56E1F5FEFCEACB8CBEECE /* Pods-pricepally-pricepallyUITests.debug.xcconfig */,
+				603AAD68BD608BD04EADA1CF /* Pods-pricepally-pricepallyUITests.release.xcconfig */,
+				0CF8BEEB75934F24D68C4B6A /* Pods-pricepallyTests.debug.xcconfig */,
+				4D478506C8D97CCB64BD2ABF /* Pods-pricepallyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D64826400936D89542467537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F07106AD7EA08AC348961 /* Pods_pricepally.framework */,
+				F9E09DDADA3747C8B137087E /* Pods_pricepally_pricepallyUITests.framework */,
+				AA575FF9040EC58E1A91ACA7 /* Pods_pricepallyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD231AA629A4BF4C00C8D063 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +175,8 @@
 				DD231AC829A4BF4F00C8D063 /* pricepallyTests */,
 				DD231AD229A4BF4F00C8D063 /* pricepallyUITests */,
 				DD231AB029A4BF4C00C8D063 /* Products */,
+				31210B7AF712205973ACD2B9 /* Pods */,
+				D64826400936D89542467537 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +193,20 @@
 		DD231AB129A4BF4C00C8D063 /* pricepally */ = {
 			isa = PBXGroup;
 			children = (
+				DDCE043829AA96580093F408 /* Feature */,
+				DDF6F45329AA36BC005E3985 /* Service */,
+				DDF6F45029AA34EF005E3985 /* Model */,
 				DD231AB229A4BF4C00C8D063 /* AppDelegate.swift */,
 				DD231AB429A4BF4C00C8D063 /* SceneDelegate.swift */,
-				DD231AB629A4BF4C00C8D063 /* ViewController.swift */,
-				DD231AB829A4BF4C00C8D063 /* Main.storyboard */,
+				DDC402BF29A7956F00007F44 /* Storyboard.swift */,
+				DDF6F44E29A7E2A4005E3985 /* CustomRectanglePageControl.swift */,
+				DDF6F44629A7AD3D005E3985 /* extension.swift */,
+				DDF6F44529A7AA9A005E3985 /* Home */,
+				DD94AE2129A5056A00B4915C /* Roboto */,
 				DD231ABB29A4BF4E00C8D063 /* Assets.xcassets */,
 				DD231ABD29A4BF4E00C8D063 /* LaunchScreen.storyboard */,
 				DD231AC029A4BF4E00C8D063 /* Info.plist */,
+				DDC6F59329A78DD600F75539 /* CustomTabBarViewController.swift */,
 			);
 			path = pricepally;
 			sourceTree = "<group>";
@@ -127,6 +228,67 @@
 			path = pricepallyUITests;
 			sourceTree = "<group>";
 		};
+		DD94AE2129A5056A00B4915C /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				DD94AE2229A5056A00B4915C /* Roboto-Medium.ttf */,
+				DD94AE2329A5056A00B4915C /* Roboto-Light.ttf */,
+				DD94AE2429A5056A00B4915C /* Roboto-Regular.ttf */,
+				DD94AE2529A5056A00B4915C /* Roboto-MediumItalic.ttf */,
+				DD94AE2629A5056A00B4915C /* Roboto-ThinItalic.ttf */,
+				DD94AE2729A5056A00B4915C /* Roboto-BoldItalic.ttf */,
+				DD94AE2829A5056A00B4915C /* Roboto-LightItalic.ttf */,
+				DD94AE2929A5056A00B4915C /* Roboto-Italic.ttf */,
+				DD94AE2A29A5056A00B4915C /* LICENSE.txt */,
+				DD94AE2B29A5056A00B4915C /* Roboto-BlackItalic.ttf */,
+				DD94AE2C29A5056A00B4915C /* Roboto-Bold.ttf */,
+				DD94AE2D29A5056A00B4915C /* Roboto-Thin.ttf */,
+				DD94AE2E29A5056A00B4915C /* Roboto-Black.ttf */,
+			);
+			name = Roboto;
+			path = ../../Roboto;
+			sourceTree = "<group>";
+		};
+		DDCE043829AA96580093F408 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		DDF6F44529A7AA9A005E3985 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD231AB829A4BF4C00C8D063 /* Main.storyboard */,
+				DD231AB629A4BF4C00C8D063 /* HomeVC.swift */,
+				DDC1BE0E29A53BD600FFC648 /* CategoryColtnsVCell.swift */,
+				DDC1BE0829A531E500FFC648 /* CategoryViewController.swift */,
+				DD231AE229A4CB1A00C8D063 /* SlideView.xib */,
+				DD231AE429A4CCC900C8D063 /* SlideView.swift */,
+				DDCE043329AA4D170093F408 /* ProductSlide.xib */,
+				DD627D7A29A4F22200BF858F /* ProductSlide.swift */,
+				DDF6F44829A7B27B005E3985 /* HomeVCBottom.swift */,
+				DDCE043629AA52CA0093F408 /* ProductSlideViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DDF6F45029AA34EF005E3985 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDF6F45129AA350D005E3985 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDF6F45329AA36BC005E3985 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DDF6F45429AA36EA005E3985 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD231AD929A4BF4F00C8D063 /* Build configuration list for PBXNativeTarget "pricepally" */;
 			buildPhases = (
+				0EAB3645F1DB0C39A7D081C5 /* [CP] Check Pods Manifest.lock */,
 				DD231AAB29A4BF4C00C8D063 /* Sources */,
 				DD231AAC29A4BF4C00C8D063 /* Frameworks */,
 				DD231AAD29A4BF4C00C8D063 /* Resources */,
+				F9345566CE38AFFC23A32F62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD231ADC29A4BF4F00C8D063 /* Build configuration list for PBXNativeTarget "pricepallyTests" */;
 			buildPhases = (
+				84455B32BC8CD9FC3EDD394E /* [CP] Check Pods Manifest.lock */,
 				DD231AC129A4BF4F00C8D063 /* Sources */,
 				DD231AC229A4BF4F00C8D063 /* Frameworks */,
 				DD231AC329A4BF4F00C8D063 /* Resources */,
@@ -169,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD231ADF29A4BF4F00C8D063 /* Build configuration list for PBXNativeTarget "pricepallyUITests" */;
 			buildPhases = (
+				B2220336E5CD65DFB35A8F76 /* [CP] Check Pods Manifest.lock */,
 				DD231ACB29A4BF4F00C8D063 /* Sources */,
 				DD231ACC29A4BF4F00C8D063 /* Frameworks */,
 				DD231ACD29A4BF4F00C8D063 /* Resources */,
+				B0F13F5167CCA07A8862D4F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +398,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD94AE3329A5056A00B4915C /* Roboto-ThinItalic.ttf in Resources */,
+				DD94AE3429A5056A00B4915C /* Roboto-BoldItalic.ttf in Resources */,
+				DD94AE3A29A5056A00B4915C /* Roboto-Thin.ttf in Resources */,
+				DDCE043529AA4D170093F408 /* ProductSlide.xib in Resources */,
+				DD94AE3529A5056A00B4915C /* Roboto-LightItalic.ttf in Resources */,
 				DD231ABF29A4BF4E00C8D063 /* LaunchScreen.storyboard in Resources */,
+				DD94AE3B29A5056A00B4915C /* Roboto-Black.ttf in Resources */,
+				DD94AE3629A5056A00B4915C /* Roboto-Italic.ttf in Resources */,
+				DD94AE3729A5056A00B4915C /* LICENSE.txt in Resources */,
+				DD94AE3829A5056A00B4915C /* Roboto-BlackItalic.ttf in Resources */,
+				DD94AE3129A5056A00B4915C /* Roboto-Regular.ttf in Resources */,
+				DD94AE2F29A5056A00B4915C /* Roboto-Medium.ttf in Resources */,
 				DD231ABC29A4BF4E00C8D063 /* Assets.xcassets in Resources */,
+				DD94AE3029A5056A00B4915C /* Roboto-Light.ttf in Resources */,
+				DD231AE329A4CB1A00C8D063 /* SlideView.xib in Resources */,
+				DD94AE3229A5056A00B4915C /* Roboto-MediumItalic.ttf in Resources */,
+				DD94AE3929A5056A00B4915C /* Roboto-Bold.ttf in Resources */,
 				DD231ABA29A4BF4C00C8D063 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +435,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EAB3645F1DB0C39A7D081C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pricepally-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84455B32BC8CD9FC3EDD394E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pricepallyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F13F5167CCA07A8862D4F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pricepally-pricepallyUITests/Pods-pricepally-pricepallyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pricepally-pricepallyUITests/Pods-pricepally-pricepallyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pricepally-pricepallyUITests/Pods-pricepally-pricepallyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2220336E5CD65DFB35A8F76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pricepally-pricepallyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9345566CE38AFFC23A32F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pricepally/Pods-pricepally-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pricepally/Pods-pricepally-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pricepally/Pods-pricepally-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD231AAB29A4BF4C00C8D063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD231AB729A4BF4C00C8D063 /* ViewController.swift in Sources */,
+				DD231AB729A4BF4C00C8D063 /* HomeVC.swift in Sources */,
 				DD231AB329A4BF4C00C8D063 /* AppDelegate.swift in Sources */,
+				DD627D7B29A4F22200BF858F /* ProductSlide.swift in Sources */,
+				DDF6F44929A7B27B005E3985 /* HomeVCBottom.swift in Sources */,
+				DDF6F44729A7AD3D005E3985 /* extension.swift in Sources */,
+				DD231AE529A4CCCA00C8D063 /* SlideView.swift in Sources */,
+				DDCE043729AA52CA0093F408 /* ProductSlideViewCell.swift in Sources */,
+				DDC6F59429A78DD600F75539 /* CustomTabBarViewController.swift in Sources */,
+				DDC402C029A7956F00007F44 /* Storyboard.swift in Sources */,
+				DDF6F45529AA36EA005E3985 /* APIService.swift in Sources */,
+				DDC1BE0F29A53BD600FFC648 /* CategoryColtnsVCell.swift in Sources */,
+				DDC1BE0929A531E500FFC648 /* CategoryViewController.swift in Sources */,
 				DD231AB529A4BF4C00C8D063 /* SceneDelegate.swift in Sources */,
+				DDF6F44F29A7E2A4005E3985 /* CustomRectanglePageControl.swift in Sources */,
+				DDF6F45229AA350D005E3985 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +729,7 @@
 		};
 		DD231ADA29A4BF4F00C8D063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D7F618E58A402F01E3A882 /* Pods-pricepally.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +743,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,14 +751,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.macsleven.pricepally;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DD231ADB29A4BF4F00C8D063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73814BD7CB68C2E59E1C036 /* Pods-pricepally.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +776,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +784,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.macsleven.pricepally;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DD231ADD29A4BF4F00C8D063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF8BEEB75934F24D68C4B6A /* Pods-pricepallyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +816,7 @@
 		};
 		DD231ADE29A4BF4F00C8D063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D478506C8D97CCB64BD2ABF /* Pods-pricepallyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +837,7 @@
 		};
 		DD231AE029A4BF4F00C8D063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC56E1F5FEFCEACB8CBEECE /* Pods-pricepally-pricepallyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +856,7 @@
 		};
 		DD231AE129A4BF4F00C8D063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603AAD68BD608BD04EADA1CF /* Pods-pricepally-pricepallyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

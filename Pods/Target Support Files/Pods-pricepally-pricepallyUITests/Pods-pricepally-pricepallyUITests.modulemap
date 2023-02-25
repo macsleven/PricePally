@@ -1,0 +1,6 @@
+framework module Pods_pricepally_pricepallyUITests {
+  umbrella header "Pods-pricepally-pricepallyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

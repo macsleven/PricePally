@@ -1,0 +1,6 @@
+framework module Pods_pricepally {
+  umbrella header "Pods-pricepally-umbrella.h"
+
+  export *
+  module * { export * }
+}
